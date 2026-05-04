@@ -3,4 +3,6 @@ project(biblioteca_sistema C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(biblioteca_sistema main.c)
+add_executable(biblioteca_sistema main.c
+        biblioteca.c
+        biblioteca.h)
